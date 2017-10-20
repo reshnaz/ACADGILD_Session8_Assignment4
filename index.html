@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+	<title>S-8 Assignment-4</title>
+</head>
+
+<body>
+	<!-- Working with Jumbotron & jQuery -->
+	<center>
+		<h1 style="margin-left: 60px; text-decoration: underline;">Demonstrating Jumbotron</h1><br>
+		<br><br>
+
+		<!-- Using bootstrap -->
+		<!-- Our main div that holds all of our main content -->
+		<div class="container">
+			<!-- Our pre-loader components ~~~START~~~ -->
+			<div id="preloader">
+			  <div id="status">Page is loading	...</div>
+			</div>
+			<!-- Our pre-loader components ~~~END~~~ -->
+
+			<!-- Div using jumbotron class ~~~START~~~ -->
+			<div class="jumbotron" id="jumboIn">
+				<p style="font-weight: bold;">This is a Jumbotron</p> 
+				<ul>
+					<li type="square">
+						<p style="text-align: left;">A jumbotron indicates a big box for calling extra attention to some special content or information.</p>
+					</li>
+					<li type="square">
+						<p style="text-align: left;">A jumbotron is displayed as a grey box with rounded corners. It also enlarges the font sizes of the text inside it.</p> 
+					</li>
+				</ul>	
+			</div>
+			<!-- Div using jumbotron class ~~~END~~~ -->
+
+			<!-- Div outside Jumbotron ~~~START~~~ -->
+			<div class="jumboOut">
+				This area lies outside Jumbotron
+				<br><br>
+				<!-- Below are buttons to hide jumbotron, show jumbotron and change format of jumbotron -->
+				<button id="hide">Hide Jumbotron</button>
+				<button id="show">Show Jumbotron</button>
+				<button id="changeFormat">Change Jumbotron Content Format</button>
+			</div>	
+			<!-- Div outside Jumbotron ~~~END~~~ -->
+
+		</div>
+	</center>
+	</body>
+	</html>
