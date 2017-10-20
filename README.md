@@ -12,5 +12,6 @@ jumbotron.
 
 --Add a button which change the font size and color of the content in the
 jumbotron.
+
 ----------------------------------------------------------------------------------------------
 Please preview index.html to view output.
